@@ -20,13 +20,14 @@
     -->
     <!-- Additional CSS Files -->
     @vite(["resources/js/app.js", "resources/css/app.scss"])
+
     <link rel="stylesheet" href="{{asset('css/templatemo-breezed.css')}}">
     <link rel="stylesheet" href="{{asset('css/owl-carousel.css')}}">
     <link rel="stylesheet" href="{{asset('css/lightbox.css')}}">
     <link rel="stylesheet" href="{{asset('css/font-awesome.css')}}">
     <link rel="stylesheet" href="{{asset('css/flex-slider.css')}}">
     <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+
 </head>
 
 <body>
