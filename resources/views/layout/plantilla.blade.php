@@ -19,7 +19,7 @@
 
     -->
     <!-- Additional CSS Files -->
-    @vite(["resources/js/app.js", "resources/css/app.css"])
+    @vite(["resources/js/app.js", "resources/css/app.scss"])
     <link rel="stylesheet" href="{{asset('css/templatemo-breezed.css')}}">
     <link rel="stylesheet" href="{{asset('css/owl-carousel.css')}}">
     <link rel="stylesheet" href="{{asset('css/lightbox.css')}}">
