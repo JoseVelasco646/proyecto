@@ -7,7 +7,7 @@
             @csrf
             <div class="form-group">
                 <label for="mascota">Nombre de la mascota</label>
-                <input type="text" name="mascota" id="mascota" value="{{$cita->mascota}}" required
+                <input type="text" name="mascota" id="mascota" value="{{$cita->mascota}}"
                        class="form-control">
             </div>
             <div class="form-group">

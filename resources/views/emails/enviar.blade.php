@@ -10,6 +10,7 @@
 <body>
 <h1> Confirmacion de cita</h1>
 <p> ¡Gracias por su preferencia,!<br>
+
     Lo esperamos junto con {{$details['mascota']}} a su cita para el dia {{$details['dia']}}
     a las {{$details['hora']}}</p>
 

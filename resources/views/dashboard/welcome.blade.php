@@ -11,7 +11,8 @@
                     <img src="{{asset('images/fondo2.jpg') }}" alt="">
                     <div class="text-content">
                         <h1>Bienvenido</h1>
-                        <h1>{{$nombre}}</h1>
+                        <h1>{{ ucwords($nombre) }}</h1>
+
 
                     </div>
                 </div>
@@ -20,12 +21,9 @@
             <!-- Item -->
             <div class="item">
                 <div class="img-fill">
-                    <img src="{{asset('images/slide-02.jpg') }}" alt="">
+                    <img src="{{asset('images/fondo2-2.jpg') }}" alt="">
                     <div class="text-content">
-                        <h3>Integrated Marketing Media</h3>
-                        <h5>Best Digital Marketing</h5>
-                        <a href="#" class="main-stroked-button">Read More</a>
-                        <a href="#" class="main-filled-button">Take Action</a>
+
                     </div>
                 </div>
             </div>
@@ -33,12 +31,9 @@
             <!-- Item -->
             <div class="item">
                 <div class="img-fill">
-                    <img src="{{asset ('images/slide-03.jpg') }}" alt="">
+                    <img src="{{asset ('images/fondo3.jpg') }}" alt="">
                     <div class="text-content">
-                        <h3>High Performance</h3>
-                        <h5>Robust and Speedy</h5>
-                        <a href="#" class="main-stroked-button">Learn More</a>
-                        <a href="#" class="main-filled-button">Get It Now</a>
+
                     </div>
                 </div>
             </div>
@@ -55,7 +50,7 @@
                 <div class="col-lg-6 col-md-6 col-xs-12">
                     <div class="left-text-content">
                         <div class="section-heading">
-                            <h6>About Us</h6>
+                            <h6>Acerca</h6>
                             <h2>We work with top brands and startups</h2>
                         </div>
                         <div class="row">

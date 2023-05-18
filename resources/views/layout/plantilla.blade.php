@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
-    <title>Breezed HTML Bootstrap Template</title>
+    <title>Veterinaria el Cachorro</title>
 
     <!--
 
@@ -56,7 +56,7 @@
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                        <li class="scroll-to-section"><a href="/" class="active">Home</a></li>
+                        <li class="scroll-to-section"><a href="/" class="active">Inicio</a></li>
                         <li class="scroll-to-section"><a href="/acerca">Acerca</a></li>
                         <li class="scroll-to-section"><a href="#projects">Projects</a></li>
                         <li class="submenu">
@@ -68,7 +68,7 @@
                                 <li><a href="">Blog</a></li>
                             </ul>
                         </li>
-                        <li class="scroll-to-section"><a href="#contact-us">Contact Us</a></li>
+                        <li class="scroll-to-section"><a href="#contact-us">Contactanos </a></li>
                         <li class="scroll-to-section"><a href="/auth/login">Ingresar</a></li>
                     </ul>
                     <a class='menu-trigger'>
