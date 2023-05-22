@@ -3,9 +3,11 @@
 namespace App\Http\Controllers;
 
 use App\Models\Cita;
+use App\Models\User;
 use Illuminate\Http\Request;
 use App\Mail\CitasConfirmarMail;
 use Illuminate\Support\Facades\Mail;
+use App\Models\Admin;
 
 
 class CitasController extends Controller
@@ -39,14 +41,20 @@ class CitasController extends Controller
         $cita->mascota = $request->mascota;
         $cita->dia = $request->dia;
         $cita->hora = $request->hora;
+        $cita->opciones = $request->opciones;
+
         $cita->save();
         $details = [
             'mascota' =>$request->mascota,
             'dia' =>$request->dia,
-            'hora' =>$request->hora
+            'hora' =>$request->hora,
+            'opciones' =>$request->opciones
+
         ];
-        Mail::to('josegarciaxdxdxdxdxd@gmail.com')->send(new CitasConfirmarMail($details));
-        return redirect()-> route('inicio');
+        $correo= Admin::find(session('LoggedUser'));
+        $correo = $correo->email;
+        Mail::to($correo)->send(new CitasConfirmarMail($details));
+        return redirect()->route('inicio');
     }
 
     /**

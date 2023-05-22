@@ -17,7 +17,7 @@
                     <tbody>
                     @foreach($citas as $cita)
                         <tr>
-                            <td>{{$cita->dia}} Hora: {{$cita->hora}} Mascota {{$cita->mascota}}</td>
+                            <td>{{$cita->dia}} Hora: {{$cita->hora}} Mascota {{$cita->mascota}} Servicio {{$cita->opciones}}</td>
                             <td>
                                 <a class="btn btn-warning" href="{{route("citas.edit",[$cita])}}">
                                     <i class="fa fa-edit"></i>
@@ -30,12 +30,20 @@
                                     <button type="submit" class="btn btn-danger">
                                         <i class="fa fa-trash"></i>
                                     </button>
+
                                 </form>
+
                             </td>
+
                         </tr>
+
                     @endforeach
                     </tbody>
+
                 </table>
+
+
+
             </div>
         </div>
     </div>

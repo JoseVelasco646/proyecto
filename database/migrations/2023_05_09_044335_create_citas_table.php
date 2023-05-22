@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string('mascota')->nullable();
             $table->date('dia');
             $table->time('hora');
+            $table->enum('opciones', ['veterinaria', 'estetica',]);
             $table->timestamps();
             $table->foreign('cliente_id')
                 ->references('id')->on('Admins')->onDelete('cascade');

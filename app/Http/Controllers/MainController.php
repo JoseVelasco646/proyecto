@@ -31,9 +31,9 @@ class MainController extends Controller
         $save = $admin->save();
 
         if($save){
-            return back()->with('success','New User has been successfuly added to database');
+            return back()->with('exito','El nuevo usuario ha sido registrado en la base de datos');
         }else{
-            return back()->with('fail','Something went wrong, try again later');
+            return back()->with('error','Algo salió mal, inténtalo de nuevo más tarde');
         }
     }
 

@@ -10,7 +10,7 @@
 <body>
 
 <div class="container">
-    <div class="row" style="margin-top:45px">
+    <div class="row" style="display: flex; justify-content: center; margin-top: 45px;">
         <div class="col-md-4 col-md-offset-4">
             <h4>Registrar</h4><hr>
             <form action="{{ route('auth.save') }}" method="post">

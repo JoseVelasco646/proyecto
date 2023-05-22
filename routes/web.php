@@ -30,7 +30,7 @@ Route::group(['middleware'=>['AuthCheck']], function(){
         ->name('auth.login');
     Route::get('/auth/register',[MainController::class, 'register'])
         ->name('auth.register');
+    Route::resource('/admin/citas',CitasController::class);
     Route::get('/admin/index',[ClientesController::class, 'index'])
         ->name('inicio');
-    Route::resource('/admin/citas',CitasController::class);
 });

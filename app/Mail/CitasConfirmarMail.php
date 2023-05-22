@@ -20,7 +20,7 @@ class CitasConfirmarMail extends Mailable
     {
         $this->details = $details;
     }
-    public function build(): static
+    public function build()
     {
         return $this->subject('Correo de la Veterinaria el Cachorro')
             ->view('emails.enviar');

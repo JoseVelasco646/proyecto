@@ -54,7 +54,7 @@
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                        <li class="scroll-to-section"><a href="/" class="active">Home</a></li>
+                        <li class="scroll-to-section"><a href="/admin/index" class="active">Inicio</a></li>
                         <li class="scroll-to-section"><a href="/admin/citas">Agendar Cita</a></li>
                         <li class="scroll-to-section"><a href="#projects">Projects</a></li>
                         <li class="submenu">

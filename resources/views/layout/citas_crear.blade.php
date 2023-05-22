@@ -14,9 +14,18 @@
             </div>
             <div class="form-group">
                 <label for="hora">Hora</label>
-                <input type="time" name="hora" id="hora">
+                <input type="time" name="hora" id="hora" required>
+            </div>
+            <div class="form-group">
+                <label for="opciones">Servicio</label>
+                <select name="opciones" required>
+                    <option value="">Seleccionar</option>
+                    <option value="veterinaria">Veterinaria</option>
+                    <option value="estetica">Estetica</option>
+                </select>
             </div>
             <button type="submit" class="btn btn-primary">Crear Cita</button>
+
         </fieldset>
     </form>
 

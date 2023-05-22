@@ -11,7 +11,8 @@
                     <img src="{{asset('images/fondo2.jpg') }}" alt="">
                     <div class="text-content">
                         <h1>Bienvenido</h1>
-                        <h1>{{ ucwords($nombre) }}</h1>
+                        <h1 style="color: #000000; background-color: #FFFFFF;">{{ ucwords($nombre) }}</h1>
+
 
 
                     </div>
