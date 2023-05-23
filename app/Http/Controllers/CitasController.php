@@ -79,6 +79,7 @@ class CitasController extends Controller
     public function update(Request $request, Cita $cita)
     {
         $cita->fill($request->input())->saveOrFail();
+        return redirect()->route('inicio');
         return redirect() ->route("citas.index");
     }
 
